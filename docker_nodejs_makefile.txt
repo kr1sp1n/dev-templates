@@ -2,7 +2,7 @@
 
 PROJECT  ?= {{project}}
 TAG      ?= latest
-PORT 		 ?= {{port}}
+PORT     ?= {{port}}
 
 ifdef REGISTRY
 	IMAGE=$(REGISTRY)/$(PROJECT):$(TAG)
